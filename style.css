@@ -1,3 +1,6 @@
 body {
-    background: blue;
+    background: black;
+}
+#mainContainer{
+    background: gray;
 }
