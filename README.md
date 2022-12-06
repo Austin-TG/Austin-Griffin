@@ -1,1 +1,3 @@
-# My Personal Website
+# Austin Griffin - Portfolio 
+
+HTML, CCS, JAVASCRIPT 
