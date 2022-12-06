@@ -1,8 +1,11 @@
 body {
     background: black;
 }
-#mainContainer{
+#mainBodyContainer, #mainHeaderContainer{
     background: gray;
     margin-left: 25%;
     margin-right: 25%;
+}
+#mainHeaderContainer{
+    background: gray;
 }
