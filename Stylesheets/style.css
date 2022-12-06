@@ -1,10 +1,13 @@
 body {
     background: black;
 }
-#mainBodyContainer, #mainHeaderContainer{
+#mainContainer{
     background: gray;
     margin-left: 25%;
     margin-right: 25%;
+}
+#mainBodyContainer, #mainHeaderContainer{
+    background: gray;
 }
 #mainHeaderContainer{
     background: gray;
