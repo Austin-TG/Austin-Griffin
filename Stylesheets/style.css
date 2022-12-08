@@ -53,8 +53,8 @@ nav ul{
     float: left;
 }
 .nav:hover, .nav:focus{
-    color:purple;
-    border: 5px solid purple;
+    color:black;
+    border: 5px solid black;
 }
 .nav a{
     font-family: Orbitron;
@@ -79,4 +79,16 @@ nav ul li a:hover, nav ul li a:focus{
     background: white;
     display: flex;
     flex-flow: column wrap;
+    text-align: center;
+    font-family: Orbitron;
+    letter-spacing: .05em;
+}
+#mainFooterContainer a{
+    text-decoration: none;
+    letter-spacing: .15em;
+}
+#mainFooterContainer a:hover, #mainFooterContainer a:focus{
+    color:black;
+    letter-spacing: .25em;
+    font-weight: bold;
 }
