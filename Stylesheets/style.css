@@ -73,5 +73,11 @@ nav ul li a:hover, nav ul li a:focus{
 }
 /* BODY */
 #mainBodyContainer{
+    background: gray;
+}
+/* FOOTER */
+#mainFooterContainer{
     background: white;
+    display: flex;
+    flex-flow: column wrap;
 }
