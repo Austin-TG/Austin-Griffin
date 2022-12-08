@@ -1,3 +1,20 @@
+@font-face{/*Chakra Petch*/
+    font-family: ChakraPetch;
+    src: url(./Fonts/ChakraPetch/ChakraPetch-Regular.ttf);
+}
+@font-face{/*Orbitron Regular*/
+    font-family: Orbitron;
+    src: url(./Fonts/Orbitron/Orbitron-Regular.ttf);
+}
+@font-face {/*Orbitron Bold*/
+    font-family: OrbitronB;
+    src: url(./Fonts/Orbitron/Orbitron-Bold.ttf);
+}
+@font-face {/*Orbitron Extra Bold*/
+    font-family: OrbitronEB;
+    src: url(./Fonts/Orbitron/Orbitron-ExtraBold.ttf);
+}
+
 body {
     background: black;
 }
@@ -12,13 +29,44 @@ body {
 #mainHeaderContainer{
     background: white;
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
 }
-#mainBodyContainer{
+header div{
+    flex: 1;
 }
-#mainFooterContainer{
+nav ul{
+    padding-top: 1%;
+}
+#mainHeaderContainer div h1{
+    font-size: 35px;
+    font-family: OrbitronEB;
+    letter-spacing: .75em;
+    text-decoration: underline;
+    text-decoration-thickness: .15em;
 }
 .nav{
-    display: flex;
-    flex-direction: row;
+    margin-right: 10px;
+    flex: 1;
+    border: 2.5px solid black;
+    list-style: none;
+    float: left;
+}
+.nav:hover, .nav:focus{
+    color:purple;
+    border: 5px solid purple;
+}
+.nav a{
+    font-family: Orbitron;
+    font-size: 25px;
+    letter-spacing: .15em;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    color: black;
+    text-decoration: none;
+}
+nav ul li a:hover, nav ul li a:focus{
+    color:black;
+    background-color: white;
+    letter-spacing: .25em;
+    font-weight: bold;
 }
