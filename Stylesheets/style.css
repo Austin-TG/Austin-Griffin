@@ -27,7 +27,7 @@ body {
     padding: .25, .25, .15, .25;
 }
 #mainHeaderContainer{
-    background: white;
+    background: rgba(255, 255, 255, 0.507);
     display: flex;
     flex-flow: row wrap;
 }
