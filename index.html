@@ -31,9 +31,16 @@
                 </div>
             </div>
         <footer>
+
+
             <div id="mainFooterContainer">
-                <h1> FOOTER HERE! </h1>
+                <p id="new">Hosted by Github</p>
             </div>
+            <script>
+                const today = new Date();
+                const year = today.getFullYear();
+                document.getElementById("new").innerHTML = '&copy' + year + ' Austin Griffin' + '<br>' + 'Hosted by Github';
+            </script>
         </footer>
         </div>
     </body>
