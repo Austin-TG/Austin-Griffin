@@ -54,7 +54,6 @@ nav ul{
 }
 .nav:hover, .nav:focus{
     color:black;
-    border: 5px solid black;
 }
 .nav a{
     font-family: Orbitron;
@@ -67,7 +66,6 @@ nav ul{
 }
 nav ul li a:hover, nav ul li a:focus{
     color:black;
-    letter-spacing: .25em;
     font-weight: bold;
 }
 /* BODY */
