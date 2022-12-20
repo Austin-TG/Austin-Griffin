@@ -16,10 +16,10 @@
 }
 
 body {
-    background: black;
+    background: white;
 }
 #contentWrapper, #mainBodyContainer, #mainHeaderContainer, #mainFooterContainer{
-    background:gray;
+    background:white;
 }
 #contentWrapper{
     margin-left: 5%;
@@ -30,9 +30,11 @@ body {
 
 /* HEADER */
 #mainHeaderContainer{
-    background: rgba(255, 255, 255, 0.507);
+    background: white;
+    box-shadow: 0px 10px 5px rgb(207, 58, 236);
     display: flex;
     flex-flow: row wrap;
+    margin-bottom: 25px;
 }
 header div{
     flex: 1;
@@ -83,17 +85,17 @@ nav ul li a:hover, nav ul li a:focus{
 #bodyOneWrapper{
     flex: 1 750px;
     margin: 1em;
-    background: yellow;
+    background: white;
 }
 #bodyTwoWrapper{
     flex: 1 500px;
     margin: 1em;
-    background-color: orange;
+    background-color: white;
 }
 #bodyThreeWrapper{
     flex: 1 500px;
     margin: 1em;
-    background-color: pink;
+    background-color: white;
 
     align-self: baseline;
 }
