@@ -1,3 +1,4 @@
+@media screen and (max-width: 1920px) {
 
 #pageContainer {
     display: grid;
@@ -80,4 +81,10 @@ p {
     font-family: "Source Sans Pro", sans-serif;
     font-weight: normal;
     color: blue;
+}
+}/* end of MEDIA 1920px maxwidth */
+@media screen and (max-width: 900px) {
+body{
+    background-color: black;
+}
 }
