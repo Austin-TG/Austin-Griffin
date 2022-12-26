@@ -70,8 +70,9 @@ function displayContent6() {
 function footerYearDisplay() {
     const today = new Date();
     const year = today.getFullYear(); 
-    return year;
+    document.getElementById("footerDisplay").innerHTML = '&copy' +  year + ' Austin Griffin' + '<br>' + 'Hosted by Github';
 }
 function webpageLoad() {
     headerDisplay();
+    footerYearDisplay();
 }
