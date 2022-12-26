@@ -18,9 +18,10 @@
 
 @media screen and (min-width: 1900px) {
 
-#headerWrapper {
+body {
     background-color: white;
 }
+
 #header {
     background-color: rgba(32, 79, 173, 0.904);
     text-align: center;
@@ -34,15 +35,12 @@
     font-size: 25px;
 }
 
-body {
-    background-color: white;
-}
 #pageContainer {
     display: grid;
     grid-template-columns: minmax(0, 1fr) 75%;
     grid-template-rows: auto 375px 375px;
     background-color: white;
-    margin: 5px;
+    margin: 10px 15% 0 15%;
 }
 #pageContainer > .gridItem {
   background-color: rgba(0, 0, 0, 0.336);
@@ -50,6 +48,7 @@ body {
   font-family: ChakraPetch;
   margin: 10px;
   box-shadow: 0 15px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
 }
 
 #navigation {
@@ -65,7 +64,7 @@ body {
 }
 #navigationItem_List ul li {
     text-align: left;
-    max-width: 25%;
+    max-width: 50%;
     margin: auto;
     padding-bottom: 15px;
     text-indent: 5px;
@@ -76,6 +75,22 @@ body {
     background-color: blue;
     border-radius: 5px;
     
+}
+
+#footer {
+    grid-row: 4 / 5;
+    grid-column: 1 / 4;
+    background-color: rgba(32, 79, 173, 0.904);
+    text-align: center;
+    margin-top: 15px;
+    padding: 10px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+#footer p {
+    color: white;
+    font-family: OrbitronB;
+    font-size: 15px;
 }
 
 #content {
@@ -112,11 +127,6 @@ body {
     display: none;
     grid-row: 2 / 4;
     grid-column: 2 / 4;
-}
-
-#footer {
-    grid-row: 4 / 5;
-    grid-column: 1 / 4;
 }
 
 p {
