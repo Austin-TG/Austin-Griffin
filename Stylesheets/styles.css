@@ -39,7 +39,7 @@ body {
 }
 #pageContainer {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: minmax(0, 1fr) 75%;
     grid-template-rows: auto 375px 375px;
     background-color: white;
     margin: 5px;
