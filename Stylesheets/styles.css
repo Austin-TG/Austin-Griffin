@@ -98,11 +98,21 @@ body {
     grid-row: 2 / 4;
     grid-column: 2 / 4;
 }
+
 #content1 {
     display: none;
     grid-row: 2 / 4;
     grid-column: 2 / 4;
 }
+#iframeCalc {
+    position: relative;
+    margin: auto 25% auto 35%;
+    max-width: 1250px;
+}
+#calculatorFrame {
+    
+}
+
 #content2 {
     display: none;
     grid-row: 2 / 4;
