@@ -16,7 +16,7 @@
 }
 
 
-@media screen and (max-width: 1920px) {
+@media screen and (min-width: 1900px) {
 
 #headerWrapper {
     background-color: white;
@@ -64,7 +64,13 @@ body {
     text-align: center;
 }
 #navigationItem_List ul li {
+    text-align: center;
+    max-width: 25%;
+    margin: auto;
     padding-bottom: 15px;
+}
+#navigationItem_List ul li:hover  {
+    border: 2px solid black;
 }
 
 #content {
@@ -113,11 +119,4 @@ p {
     font-weight: normal;
     color: blue;
 }
-}/* end of MEDIA 1920px maxwidth */
-
-@media screen and (max-width: 900px) {
-    
-body{
-    background-color: black;
-}
-}
+}/* end of MEDIA 1920px max-width */
