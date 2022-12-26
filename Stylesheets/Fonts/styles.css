@@ -1,0 +1,84 @@
+/* Place your CSS styles in this file */
+
+#pageContainer {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto 375px 375px;
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+}
+
+#pageContainer > .gridItem {
+  background-color: rgba(0, 0, 0, 0.336);
+  margin: 10px;
+  font-size: 25px;
+}
+
+#header {
+  grid-column: 1 / 4;
+  grid-row: 1 / 2;
+}
+
+#navigation {
+    grid-row: 2 / 4;
+    grid-column: 1 / 2;
+}
+#navigation div p {
+    padding-bottom: 20px;
+}
+#navigationItem_List ul {
+    list-style-type: none;
+    text-align: center;
+}
+#navigationItem_List ul li {
+    padding-bottom: 15px;
+}
+
+#content {
+    display: block;
+    grid-row: 2 / 4;
+    grid-column: 2 / 4;
+}
+#content1 {
+    display: none;
+    grid-row: 2 / 4;
+    grid-column: 2 / 4;
+}
+#content2 {
+    display: none;
+    grid-row: 2 / 4;
+    grid-column: 2 / 4;
+}
+#content3 {
+    display: none;
+    grid-row: 2 / 4;
+    grid-column: 2 / 4;
+}
+#content4 {
+    display: none;
+    grid-row: 2 / 4;
+    grid-column: 2 / 4;
+}
+#content5 {
+    display: none;
+    grid-row: 2 / 4;
+    grid-column: 2 / 4;
+}
+#content6 {
+    display: none;
+    grid-row: 2 / 4;
+    grid-column: 2 / 4;
+}
+
+#footer {
+    grid-row: 4 / 5;
+    grid-column: 1 / 4;
+}
+
+p {
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: normal;
+    color: blue;
+}
