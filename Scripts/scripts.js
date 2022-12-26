@@ -1,4 +1,3 @@
-/* Place your JavaScript in this file */
 
 function headerDisplay() {
     document.getElementById("headerText").innerHTML = "<p> Austin Griffin's Portfolio </p>";
