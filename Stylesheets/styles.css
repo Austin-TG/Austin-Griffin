@@ -64,13 +64,18 @@ body {
     text-align: center;
 }
 #navigationItem_List ul li {
-    text-align: center;
+    text-align: left;
     max-width: 25%;
     margin: auto;
     padding-bottom: 15px;
+    text-indent: 5px;
+    letter-spacing: .5px;
 }
 #navigationItem_List ul li:hover  {
-    border: 2px solid black;
+    color: white;
+    background-color: blue;
+    border-radius: 5px;
+    
 }
 
 #content {
@@ -118,5 +123,6 @@ p {
     text-align: center;
     font-weight: normal;
     color: blue;
+    letter-spacing: 1px;
 }
 }/* end of MEDIA 1920px max-width */
