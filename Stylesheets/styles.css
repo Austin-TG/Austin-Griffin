@@ -1,23 +1,35 @@
 @media screen and (max-width: 1920px) {
 
+#headerWrapper {
+    background-color: white;
+}
+#header {
+    background-color: rgba(32, 79, 173, 0.904);
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#header p {
+    color: white;
+    font-size: 25px;
+}
+
+body {
+    background-color: white;
+}
 #pageContainer {
     display: grid;
     grid-template-columns: auto auto auto;
     grid-template-rows: auto 375px 375px;
     background-color: white;
-    margin: 10px;
-    padding: 10px;
+    margin: 5px;
 }
-
 #pageContainer > .gridItem {
   background-color: rgba(0, 0, 0, 0.336);
-  margin: 10px;
   font-size: 25px;
-}
-
-#header {
-  grid-column: 1 / 4;
-  grid-row: 1 / 2;
+  margin: 10px;
+  box-shadow: 0 15px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #navigation {
@@ -83,7 +95,9 @@ p {
     color: blue;
 }
 }/* end of MEDIA 1920px maxwidth */
+
 @media screen and (max-width: 900px) {
+    
 body{
     background-color: black;
 }
