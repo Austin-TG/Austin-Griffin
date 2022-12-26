@@ -47,6 +47,7 @@ body {
 #pageContainer > .gridItem {
   background-color: rgba(0, 0, 0, 0.336);
   font-size: 18px;
+  font-family: ChakraPetch;
   margin: 10px;
   box-shadow: 0 15px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -109,7 +110,6 @@ body {
 
 p {
     text-align: center;
-    font-family: "Source Sans Pro", sans-serif;
     font-weight: normal;
     color: blue;
 }
