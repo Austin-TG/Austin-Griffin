@@ -1,74 +1,78 @@
 <!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        
-        <!-- Refresh page every 10 secs -->
-        <meta http-equiv="refresh" content="60">
-        
-        <title>Austin Griffin || Home</title>
 
-        <!-- Load external CSS styles -->
-        <link rel="stylesheet" href="./Stylesheets/styles.css">
+<head>
+    <meta charset="utf-8">
 
-        <!-- Load external JavaScript -->
-        <script src="./Scripts/scripts.js"></script>
-    </head>
-    <body onload="webpageLoad()">
+    <!-- Refresh page every 10 secs -->
+    <!-- <meta http-equiv="refresh" content="60"> -->
 
-        <!-- Header Start -->
-        <div id="header">
-            <p id="headerText"></p>
-        </div>
+    <title>Austin Griffin || Home</title>
 
-        <div id="pageContainer">    
-            <!-- Navigation Start -->
-            <div class="gridItem" id="navigation">
-                <div class="navigationItems">
-                    <p>Navigation</p>
-                </div>
-                <div class="navigationItems" id="navigationItem_List">
-                    <ul>
-                        <li onclick="displayContent()">Portfolio</li>
-                        <ul display="none">
-                            <li onclick="displayContent1()">&nbsp&nbspProject #1</li>
-                            <li onclick="displayContent2()">&nbsp&nbspProject #2</li>
-                        </ul>
-                        <li onclick="displayContent3()">About Me</li>
-                        <li onclick="displayContent4()">Education</li>
-                        <li onclick="displayContent5()">Experience</li>
-                        <li onclick="displayContent6()">Contact Me</li>
+    <!-- Load external CSS styles -->
+    <link rel="stylesheet" href="./Stylesheets/styles.css">
+
+    <!-- Load external JavaScript -->
+    <script src="./Scripts/scripts.js"></script>
+</head>
+
+<body onload="webpageLoad()">
+
+    <!-- Header Start -->
+    <div id="header">
+        <p id="headerText"></p>
+    </div>
+
+    <div id="pageContainer">
+        <!-- Navigation Start -->
+        <div class="gridItem" id="navigation">
+            <div class="navigationItems">
+                <p>Navigation</p>
+            </div>
+            <div class="navigationItems" id="navigationItem_List">
+                <ul>
+                    <li onclick="displayContent()">Portfolio</li>
+                    <ul display="none">
+                        <li onclick="displayContent1()">&nbsp&nbspProject #1</li>
+                        <li onclick="displayContent2()">&nbsp&nbspProject #2</li>
                     </ul>
-                </div>
-            </div>
-
-            <!-- Body Start -->
-            <div class="gridItem" id="content">
-                <p> Portfolio </p>
-            </div>
-            <div class="gridItem" id="content1">
-                <p> Project #1 Body </p>
-            </div>
-            <div class="gridItem" id="content2">
-                <p> Project #2 Body </p>
-            </div>
-            <div class="gridItem" id="content3">
-                <p> About Me </p>
-            </div>
-            <div class="gridItem" id="content4">
-                <p> Education </p>
-            </div>
-            <div class="gridItem" id="content5">
-                <p> Experience </p>
-            </div>
-            <div class="gridItem" id="content6">
-                <p> Contact Me </p>
+                    <li onclick="displayContent3()">About Me</li>
+                    <li onclick="displayContent4()">Education</li>
+                    <li onclick="displayContent5()">Experience</li>
+                    <li onclick="displayContent6()">Contact Me</li>
+                </ul>
             </div>
         </div>
 
-        <!-- Footer Start -->
-        <div id="footer">
-            <p id="footerDisplay"></p>
+        <!-- Body Start -->
+        <div class="gridContentItem" id="content">
+            <p> Portfolio </p>
         </div>
-    </body>
+        <div class="gridContentItem" id="content1">
+            <p> Project #1 Body </p>
+        </div>
+        <div class="gridContentItem" id="content2">
+            <p> Project #2 Body </p>
+        </div>
+        <div class="gridContentItem" id="content3">
+            <p> About Me </p>
+            <p>I was born in Texas and grew up in Ohio. After graduating high school I moved to Maricopa, Arizona to pursue a degree in computer programming. After learning the fundamentals of programming and then the basics from several languages including, Java, C++, C#, Javascript, HTML, CSS, SQL and Python I experimented with each individually.<br><br> Currently I am practicing and learning more front end web development by coding my portfolio page using HTML, CSS, and Javascript.</p>
+        </div>
+        <div class="gridContentItem" id="content4">
+            <p> Education </p>
+        </div>
+        <div class="gridContentItem" id="content5">
+            <p> Experience </p>
+        </div>
+        <div class="gridContentItem" id="content6">
+            <p> Contact Me </p>
+        </div>
+    </div>
+
+    <!-- Footer Start -->
+    <div id="footer">
+        <p id="footerDisplay"></p>
+    </div>
+</body>
+
 </html>

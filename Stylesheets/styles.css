@@ -20,6 +20,7 @@
 
 body {
     background-color: white;
+    margin: 0;
 }
 
 #header {
@@ -42,13 +43,24 @@ body {
     background-color: white;
     margin: 10px 15% 0 15%;
 }
-#pageContainer > .gridItem {
+.gridItem {
   background-color: rgba(0, 0, 0, 0.336);
   font-size: 18px;
   font-family: ChakraPetch;
   margin: 10px;
   box-shadow: 0 15px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   
+}
+.gridContentItem {
+  background-color: rgba(0, 0, 0, 0.336);
+  font-size: 18px;
+  font-family: ChakraPetch;
+  margin: 10px;
+  box-shadow: 0 15px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+.gridContentItem > p {
+    padding: 1em;
 }
 
 #navigation {
