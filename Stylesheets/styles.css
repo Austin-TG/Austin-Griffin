@@ -16,8 +16,6 @@
 }
 
 
-@media screen and (min-width: 1900px) {
-
 body {
     background-color: white;
     margin: 0;
@@ -149,4 +147,3 @@ p {
     color: blue;
     letter-spacing: 1px;
 }
-}/* end of MEDIA 1920px max-width */
